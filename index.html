@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Boxes</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="box closed" id="box1">
+        <div class="box-header">
+            <input type="radio" name="box-select" id="radio1">
+            <label for="radio1" class="box-label">1 Unit</label>
+            <span class="discount-label">10% off</span>
+        </div>
+        <div class="box-content">
+            <div class="details">
+                <div class="dropdown">
+                    <label>Size:</label>
+                    <select>
+                        <option value="S">S</option>
+                        <option value="M">M</option>
+                        <option value="L">L</option>
+                    </select>
+                </div>
+                <div class="dropdown">
+                    <label>Color:</label>
+                    <select>
+                        <option value="Black">Black</option>
+                        <option value="White">White</option>
+                        <option value="Blue">Blue</option>
+                    </select>
+                </div>
+                <div class="price">
+                    <span class="crossed-price">₹550</span> ₹500
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="box closed" id="box2">
+        <div class="box-header">
+            <input type="radio" name="box-select" id="radio2">
+            <label for="radio2" class="box-label">2 Units</label>
+            <span class="discount-label">30% off</span>
+        </div>
+        <div class="box-content">
+            <div class="details">
+                <div class="dropdown">
+                    <label>Size:</label>
+                    <select>
+                        <option value="S">S</option>
+                        <option value="M">M</option>
+                        <option value="L">L</option>
+                    </select>
+                </div>
+                <div class="dropdown">
+                    <label>Color:</label>
+                    <select>
+                        <option value="Black">Black</option>
+                        <option value="White">White</option>
+                        <option value="Blue">Blue</option>
+                    </select>
+                </div>
+                <div class="price">
+                    <span class="crossed-price">₹1040</span> ₹800
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="box closed" id="box3">
+        <div class="box-header">
+            <input type="radio" name="box-select" id="radio3">
+            <label for="radio3" class="box-label">3 Units</label>
+            <span class="discount-label">50% off</span>
+        </div>
+        <div class="box-content">
+            <div class="details">
+                <div class="dropdown">
+                    <label>Size:</label>
+                    <select>
+                        <option value="S">S</option>
+                        <option value="M">M</option>
+                        <option value="L">L</option>
+                    </select>
+                </div>
+                <div class="dropdown">
+                    <label>Color:</label>
+                    <select>
+                        <option value="Black">Black</option>
+                        <option value="White">White</option>
+                        <option value="Blue">Blue</option>
+                    </select>
+                </div>
+                <div class="price">
+                    <span class="crossed-price">₹1500</span> ₹1000
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="total-price-wrapper">
+        <span class="total-price">Total Price: ₹0</span>
+        <span class="free-delivery">Free Delivery</span>
+    </div>
+    <button class="add-to-cart">Add to Cart</button>
+
+    <script src="script.js"></script>
+</body>
+</html>
